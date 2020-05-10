@@ -1,0 +1,48 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    background: #e4e3e3;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer-icons a {
+    font-size: 24px;
+    transition: 0.3s
+}
+
+#footer-icons {
+    padding-top: 10px;
+}
+
+#footer-msg {
+    padding-top: 50px;
+    font-size: 18px
+}
+
+.socialLinks a {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.5s;
+    font-weight: 700;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.socialLinks a:hover {
+    background: rgb(230, 230, 230);
+    color: #009688;
+    border-radius: 20px;
+}
+
+.socialLinks a {
+    font-weight: 400
+}
+
+.socialLinks a:last-of-type {
+    margin: 0
+}
